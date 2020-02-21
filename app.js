@@ -25,7 +25,7 @@ function addTask(e) {
 
   const link = document.createElement("a");
   link.className = "delete-item secondary-content";
-  link.innerHTML = '<i class="fa fa-remove"></li>';
+  link.innerHTML = '<i class="far fa-times-circle"></i>';
   li.appendChild(link);
   taskList.appendChild(li);
   taskInput.value = "";
